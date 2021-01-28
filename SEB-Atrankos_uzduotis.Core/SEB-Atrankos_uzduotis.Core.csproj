@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SEB_Atrankos_uzduotis.Core</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEB-Atrankos_uzduotis.Api\SEB-Atrankos_uzduotis.Api.csproj" />
+  </ItemGroup>
+
+</Project>
