@@ -1,7 +1,6 @@
 ﻿using MvvmCross.ViewModels;
 using SEB_Atrankos_uzduotis.Core.ItemViewModels;
 using SEB_Atrankos_uzduotis.Core.Services;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -57,7 +56,7 @@ namespace SEB_Atrankos_uzduotis.Core.ViewModels
                     }
                     Transactions.Add(new TransactionsItemViewModel(item, _sections[_sections.Count - 1].Count == 0));
                     _sections[_sections.Count - 1].Add(_lastYear);
-                    _totalAmount += item.Amount;
+                    _totalAmount += item.ExpenseAmount;
                 }
             }
 

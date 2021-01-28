@@ -13,7 +13,7 @@ namespace SEB_Atrankos_uzduotis.Core.ItemViewModels
             ExpenseDescription = transactionsDto.Description;
             DateDay = transactionsDto.Date.Day;
             DateMonth = transactionsDto.Date.ToString("MMM", CultureInfo.InvariantCulture);
-            ExpenseAmount = transactionsDto.Amount + " $";
+            ExpenseAmount = transactionsDto.ExpenseAmount + " $";
             SectionName = transactionsDto.Date.Year.ToString();
             IsFirstInSection = isSectionVisible;
             PartyName = transactionsDto.PartyName;

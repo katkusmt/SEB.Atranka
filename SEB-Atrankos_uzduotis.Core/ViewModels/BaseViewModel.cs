@@ -1,6 +1,4 @@
-﻿
-
-using MvvmCross.ViewModels;
+﻿using MvvmCross.ViewModels;
 
 namespace SEB_Atrankos_uzduotis.Core.ViewModels
 {

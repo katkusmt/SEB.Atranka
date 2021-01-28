@@ -1,7 +1,5 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SEB_Atrankos_uzduotis.Api.DTO
 {
@@ -23,7 +21,7 @@ namespace SEB_Atrankos_uzduotis.Api.DTO
         public string CardType { get; set; }
         
         [JsonProperty("amount")]
-        public double Amount { get; set; }
+        public double ExpenseAmount { get; set; }
 
     }
 }
